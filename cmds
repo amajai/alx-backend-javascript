@@ -1,0 +1,2 @@
+./node_modules/.bin/eslint --fix 0x00-ES6_basic/<project name>.js - check and fix eslint for project
+npm run dev 0x00-ES6_basic/<main project file>.js  - Run project
