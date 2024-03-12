@@ -3,8 +3,7 @@ export default function cleanSet(set, startString) {
     return '';
   }
   return Array.from(set)
-    .filter((val) =>val.includes(startString))
+    .filter((val) => val.includes(startString))
     .map((val) => val.replace(startString, ''))
-    .join('-')
-  
+    .join('-');
 }
